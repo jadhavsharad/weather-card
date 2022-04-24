@@ -1,3 +1,6 @@
+document.onselectstart = disableselect  
+document.onmousedown = disableselect
+
 let weather = {
     apiKey: "18d7969ff7ca3adf1a66136aff79a05c",
     fetchWeather: function (city) {
