@@ -1,4 +1,3 @@
-document.onselectstart = disableselect  
 document.onmousedown = disableselect
 
 let weather = {
